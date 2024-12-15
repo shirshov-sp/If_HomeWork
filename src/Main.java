@@ -83,7 +83,7 @@ public class Main {
             System.out.println("Нельзя определить наибольшее число, есть равные!");
         } else if (one > two && one > three) {
             System.out.println("Больше всех число one = " + one + "\n");
-        } else if (two > one && two > three) {
+        } else if (two > three) {
             System.out.println("Больше всех число two = " + two + "\n");
         } else {
             System.out.println("Больше всех число three = " + three + "\n");
